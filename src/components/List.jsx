@@ -53,7 +53,7 @@ const PokemonList = () => {
           <div key={index} className='m-4 flex flex-col items-center cursor-pointer hover:scale-105 transition-all border shadow-xl h-[400px] rounded-lg p-2'>
             <div className='relative'>
               <img src="./bg.jpg" alt="" className='relative w-full'/>
-              <img src={pokemon.sprites.front_default} alt={pokemon.name} className='absolute top-8 left-20 h-40 object-cover' />
+              <img src={pokemon.sprites.front_default} alt={pokemon.name} className='absolute top-8 left-16 h-36 object-cover' />
             </div>
             <h3 className='mt-8 font-bold text-xl uppercase text-center'>{pokemon.name}</h3>
             <p className='text-md font-semibold text-center'>Weight: {pokemon.weight}</p>
